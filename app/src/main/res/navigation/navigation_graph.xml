@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.jhonnygc.crucigrama.Fragments.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicioFragment_to_crucigramaFragment"
+            app:destination="@id/crucigramaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/crucigramaFragment"
+        android:name="com.jhonnygc.crucigrama.Fragments.CrucigramaFragment"
+        android:label="fragment_crucigrama"
+        tools:layout="@layout/fragment_crucigrama" />
+</navigation>

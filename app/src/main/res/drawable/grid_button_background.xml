@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item xmlns:android="http://schemas.android.com/apk/res/android">
+        <shape>
+            <solid android:color="@android:color/white" /> <!-- Color del fondo del diálogo -->
+            <corners android:radius="20dp" /> <!-- Radio de las esquinas redondeadas -->
+        </shape>
+    </item>
+</selector>
